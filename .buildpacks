@@ -1,2 +1,2 @@
-https://github.com/heroku/heroku-buildpack-nginx.git#v0.6
-https://github.com/heroku/heroku-buildpack-nodejs.git#v98
+https://github.com/beanieboi/nginx-buildpack.git
+https://github.com/heroku/heroku-buildpack-nodejs.git
