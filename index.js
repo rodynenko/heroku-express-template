@@ -14,6 +14,6 @@ app.use((err, req, res, next) => {
   res.status(500).send('Something broke!');
 });
 
-app.listen(app.get('port'), function() {
-	console.log('Node app is running on port', app.get('port'));
+app.listen('/tmp/nginx.socket', function() {
+	console.log('Node app is running on port');
 });
