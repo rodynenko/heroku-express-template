@@ -1,0 +1,8 @@
+{
+  "name": "heroku-express-template",
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-nginx.git"
+  }, {
+    "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }]
+}
