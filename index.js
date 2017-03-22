@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-app.set('port', 3000);
+app.set('port', process.env.PORT || 3000);
 app.use(express.static(__dirname + '/public'));
 
 app.use((req, res, next) => {
@@ -14,6 +14,6 @@ app.use((err, req, res, next) => {
   res.status(500).send('Something broke!');
 });
 
-app.listen('/tmp/nginx.socket', function() {
-	console.log('Node app is running on port');
+app.listen(app.get('port'), () => {
+	console.log('Node app is running on port ' + app.get('port'));
 });
