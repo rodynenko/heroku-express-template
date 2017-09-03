@@ -17,7 +17,7 @@
     "heroku",
     "express"
   ],
-  "author": "",
+  "author": "Taras Rodynenko (https://github.com/rodynenko)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rodynenko/heroku-express-template/issues"
